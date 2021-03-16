@@ -1,0 +1,93 @@
+.header {
+  display: grid;
+  padding-top: 16px;
+}
+
+.logo__link {
+  width: 60%;
+  display: grid;
+  color: inherit;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.telephone a:hover {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 16px;
+  }
+
+  .logo__image {
+    width: 160px;
+    height: 33px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .header--active {
+    background-color: #EC5540;
+  }
+
+  .header__menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-top: 36px;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+  }
+
+  .header__menu {
+    align-self: center;
+  }
+
+  .logo__image {
+    width: 193px;
+    height: 40px;
+  }
+
+  .telephone a {
+    margin-left: auto;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    color: #EC5540;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 1320px) {
+  .header {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 0;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .telephone a {
+    margin-left: 250px;
+    right: 0;
+    font-size: 24px;
+  }
+
+  .header__menu {
+    position: relative;
+  }
+}

@@ -1,0 +1,201 @@
+.application__title {
+  margin: 0;
+}
+
+.application__form-title {
+  margin: 0;
+}
+
+.application__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.application-task::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  right: 0%;
+  width: 15px;
+  height: 15px;
+  background-image: url(/img/link.svg);
+}
+
+@media (max-width: 767px) {
+  .application__wrapper {
+    padding: 0 10px;
+  }
+
+  .application__list {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+  .application__title {
+    max-width: 296px;
+    margin-top: 115px;
+    margin-bottom: 120px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 85%;
+    letter-spacing: -0.05em;
+    color: #EC5540;
+  }
+
+  .application__form-title {
+    margin-bottom: 10px;
+  }
+
+  .application__fieldset:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .application__item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+.application__fieldset {
+  margin: 0;
+  padding: 0;
+  background-color: #EC5540;
+  border: none;
+}
+
+.application__label {
+  position: relative;
+  padding-left: 35px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+}
+
+.application__input {
+  position: absolute;
+  appearance: none;
+  background-color: #EC5540;
+}
+
+.application__checkbox {
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  width: 14px;
+  height: 14px;
+  box-shadow: 0 0 0 2px #181414;
+  background-color: #EC5540;
+}
+
+.application__input:checked + .application__checkbox {
+  background-image: url(../img/Ellipse-black.svg);
+}
+
+.application__input:focus + .application__checkbox {
+  box-shadow: 0 0 0 2px #181414;
+}
+
+.application__form-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 90%;
+  letter-spacing: -0.05em;
+  color: #EC5540;
+}
+
+.application-task {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .application__wrapper {
+    padding: 0 20px;
+  }
+
+  .application__form {
+    width: 520px;
+    margin: auto;
+  }
+
+  .application__list {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .application__title {
+    max-width: inherit;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 85%;
+    letter-spacing: -0.05em;
+    color: #EC5540;
+  }
+
+  .application__form-title {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+
+  .application__label {
+    font-size: 24px;
+  }
+
+  .application__checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .application__input:checked + .application__checkbox {
+    background-image: url(../img/Ellipse-black-big.svg);
+  }
+
+  .application__fieldset:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .application__item:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}
+
+
+@media (min-width: 1320px) {
+  .application__form {
+    margin: 0;
+    margin-left: auto;
+    right: 25%;
+    position: relative;
+  }
+
+  .application__label {
+    cursor: pointer;
+  }
+
+  .application__wrapper {
+    padding: 0 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .application__title {
+    width: 1040px;
+    margin-top: 160px;
+    margin-bottom: 150px;
+  }
+
+  .application-task::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-image: url(../img/link.svg);
+  }
+}

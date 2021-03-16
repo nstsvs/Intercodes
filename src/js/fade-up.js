@@ -1,0 +1,1 @@
+const animateArea=document.querySelectorAll(".animate-area");observer=new IntersectionObserver(e=>{e.forEach(e=>{e.intersectionRatio>0?e.target.classList.add("fade"):e.target.classList.remove("fade")})}),animateArea.forEach(e=>{observer.observe(e)});

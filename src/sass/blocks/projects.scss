@@ -1,0 +1,293 @@
+.projects__title {
+  width: 296px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 85%;
+  letter-spacing: -0.05em;
+  color: #EC5540;
+}
+
+.projects__title {
+  margin: 0;
+}
+
+.projects__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects__item a:hover {
+  color: #fff;
+}
+
+.projects__submit-button:hover {
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .projects__item {
+    margin-bottom: 80px;
+    width: 100%;
+  }
+
+  .project__image {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .projects__title {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .wrapper__projects-title {
+    padding: 0 10px;
+  }
+
+  .projects {
+   padding: 0 10px;
+  }
+
+  .projects__item img {
+    width: 100%;
+  }
+
+  .projects__item a {
+    text-decoration: none;
+    color: #EC5540;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 85%;
+    letter-spacing: -0.05em;
+  }
+
+  .projects__description {
+    margin: 0;
+    width: 300px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    color: #EC5540;
+  }
+
+  .macbook-img {
+    background-color: #F1F2F5;
+    padding: 24px;
+    max-width: 100%;
+  }
+
+  .geoplus-img {
+    background-color: #f1f2f5;
+    padding-left: 71px;
+    padding-right: 58px;
+    padding-top: 10px;
+    max-width: 100%;
+  }
+
+  .wrapper__description {
+    width: 300px;
+  }
+}
+
+.wrap__projects {
+  background-color: #EC5540;
+}
+
+// .projects__feedback {
+//   background-color: #EC5540;
+// }
+
+.projects__feedback-title {
+  color: #181414;
+}
+
+.projects__feedback-item input {
+  color: #181414;
+  background-color: #EC5540;
+  border-bottom: 1px solid #181414;
+}
+
+.projects__feedback-item ::placeholder {
+  color: #181414;
+}
+
+.projects__feedback-item textarea {
+  background-color: #EC5540;
+  color: #181414;
+  border-bottom: 1px solid #181414;
+}
+
+.projects__privacy-label {
+  color: #181414;
+}
+
+.projects__privacy-checkbox {
+  box-shadow: 0 0 0 2px #181414;
+  background-color: #EC5540;
+}
+
+.projects__privacy-input:checked + .projects__privacy-checkbox {
+  background-image: url(/img/Ellipse-black.svg);
+}
+
+.projects__privacy-input:focus + .projects__privacy-checkbox {
+  box-shadow: 0 0 0 2px #181414;
+}
+
+.projects__submit-button {
+  background-color: #181414;
+  color: #EC5540;
+}
+
+@media (min-width: 768px) {
+  .projects__item {
+    margin-bottom: 100px;
+    width: 49%;
+  }
+
+  .projects__item img {
+    width: 100%;
+  }
+
+  .projects__title {
+    font-size: 100px;
+    width: auto;
+    margin-top: 160px;
+    margin-bottom: 150px;
+  }
+
+  .wrapper__projects-title {
+    padding: 0 20px;
+  }
+
+  .projects__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: inherit;
+    justify-content: space-between;
+  }
+
+  .projects__item a {
+    text-decoration: none;
+    color: #EC5540;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 85%;
+    letter-spacing: -0.07em;
+    font-size: 42px;
+  }
+
+  .projects__description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    margin: 0;
+    letter-spacing: -0.06em;
+    color: #EC5540;
+  }
+
+  .projects {
+    padding: 0 20px;
+  }
+
+  .wrapper__description {
+    margin-top: 30px;
+    width: 340px;
+  }
+
+  .macbook-img {
+    background-color: #F1F2F5;
+    padding: 7.6%;
+  }
+
+  .geoplus-img {
+    background-color: #f1f2f5;
+    padding-left: 84px;
+    padding-right: 62px;
+    padding-top: 0;
+  }
+
+  .projects__privacy-input:checked + .projects__privacy-checkbox {
+    background-image: url(/img/Ellipse-black-big.svg);
+  }
+
+  .projects__feedback-item textarea {
+    padding-top: 3px;
+  }
+
+  .fantasy-img {
+    padding: 8%;
+    background-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1320px) {
+  .wrapper__projects-title {
+    padding: 0 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .projects__title {
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    width: 1039px;
+  }
+
+  .projects__list {
+    justify-content: space-between;
+  }
+
+  .wrapper__description {
+    width: 385px;
+  }
+
+  .projects {
+    padding: 0 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .projects__item {
+    margin-bottom: 227px;
+    width: 570px;
+    height: 376px;
+  }
+
+  .projects__item img {
+    width: 570px;
+    height: 376px;
+  }
+
+  .geoplus-img {
+    padding-left: 131px;
+    padding-right: 129px;
+  }
+
+  .macbook-img {
+    padding: 36px;
+  }
+}
+
+@media (min-width: 1430px) {
+  .projects__item {
+    width: 620px;
+    height: 420px;
+  }
+
+  .projects__item img {
+    width: 620px;
+    height: 420px;
+  }
+}

@@ -1,0 +1,274 @@
+@media (max-width: 767px) {
+  .development {
+    padding: 0 10px;
+  }
+
+  .column {
+    margin-bottom: 80px;
+  }
+
+  .development__wrapper {
+    margin-bottom: 40px;
+  }
+
+  .services__development {
+    padding: 40px 10px 80px;
+  }
+
+  .services__development-title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 85%;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+  }
+
+  .submit__development {
+    padding-bottom: 120px;
+  }
+
+ .desktop-dev {
+    display: none;
+  }
+
+  .mobile-dev {
+    display: flex;
+    font-weight: bold;
+    line-height: 85%;
+  }
+
+  .mobile-dev a {
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    color: #EC5540;
+    font-size: 60px;
+  }
+
+  .development__feedback {
+    background-color: #181414;
+  }
+
+  .development__feedback-title {
+    color: #EC5540;
+  }
+
+  .development__feedback-item input {
+    color: #EC5540;
+    background-color: #181414;
+    border-bottom: 1px solid #EC5540;
+  }
+
+  .development__feedback-item ::placeholder {
+    color: #EC5540;
+  }
+
+  .development__feedback-item textarea {
+    background-color: #181414;
+    color: #ec5540;
+    border-bottom: 1px solid #ec5540;
+  }
+
+  .development__privacy-label {
+    color: #EC5540;
+  }
+
+  .development__privacy-checkbox {
+    box-shadow: 0 0 0 2px #EC5540;
+    background-color: #181414;
+  }
+
+  .development__privacy-input:checked + .projects__privacy-checkbox {
+    background-image: url(/img/Ellipse.svg);
+  }
+
+  .development__privacy-input:focus + .projects__privacy-checkbox {
+    box-shadow: 0 0 0 2px #EC5540;
+  }
+
+  .development__submit-button {
+    background-color: #EC5540;
+    color: #181414;
+  }
+
+  .development__feedback {
+    background-color: #181414;
+    padding: 0;
+  }
+
+  .wrap__development {
+    background-color: #181414;
+  }
+}
+
+.development__title {
+  font-weight: bold;
+  margin: 0;
+  padding-top: 115px;
+  padding-bottom: 120px;
+  font-size: 60px;
+  line-height: 85%;
+  letter-spacing: -0.05em;
+  color: #EC5540;
+}
+
+.development__subtitle {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 85%;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #EC5540;
+}
+
+.description__title {
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #EC5540;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  line-height: 130%;
+  letter-spacing: -0.06em;
+  color: #EC5540;
+}
+
+.description:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.description__wrapper {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .development {
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .development__subtitle {
+    font-size: 24px;
+  }
+
+  .description__title {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 34px;
+  }
+
+  .left-column {
+    padding-top: 150px;
+    position: sticky;
+    top: -60px;
+    &.bottom {
+      bottom: 0;
+    }
+  }
+
+  .development__title {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: auto;
+    top: -250px;
+    position: relative;
+  }
+
+  .development__wrapper {
+    margin-bottom: 60px;
+  }
+
+  .desktop-dev {
+    font-size: 60px;
+  }
+
+  .desktop-dev a {
+    text-decoration: none;
+    color: #EC5540;
+  }
+
+  .desktop-dev--current a {
+    color: #fff;
+  }
+}
+
+@media (min-width: 1320px) {
+  .desktop-dev a:hover {
+    color: #fff;
+  }
+
+  .development {
+    padding: 0;
+    width: 632px;
+  }
+
+  .description__wrapper {
+    margin-bottom: 60px;
+  }
+
+  .description__wrapper:last-child {
+    margin-bottom: 0;
+  }
+
+  .development__title {
+    font-size: 58px;
+  }
+
+  .development__subtitle {
+    margin-bottom: 40px;
+  }
+
+  .description {
+    font-size: 36px;
+  }
+
+  .description__title {
+    font-size: 58px;
+    line-height: 85%;
+    letter-spacing: -0.05em;
+    margin-bottom: 60px;
+  }
+
+  .description:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+  .bar {
+    padding: 0 80px;
+    display: flex;
+    position: relative;
+    margin-bottom: 150px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+
+  .left-column {
+    padding-top: 136px;
+    height: 365px;
+    top: -60px;
+  }
+
+  .right-column {
+    width: 53%;
+    top: 0;
+    padding-top: 136px;
+  }
+}

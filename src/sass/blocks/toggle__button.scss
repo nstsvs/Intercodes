@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  .menu__toggle:after,
+  .menu__toggle:before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+  }
+
+  .menu__toggle:after{
+    margin-top: 9px;
+    margin-left: 12px;
+  }
+
+  .menu__toggle {
+    position: relative;
+    display: block;
+  }
+
+  .menu__toggle:after,
+  .menu__toggle:before {
+    height: 5px;
+    width: 32px;
+    background-color: #EC5540;
+    transition: all 0.3s;
+  }
+
+  .menu__button.on span:before {
+    transform: rotate(45deg) translate(15px, -5px);
+    background-color: #181414;
+    z-index: 1;
+  }
+
+  .menu__button.on span:after {
+    transform: rotate(-45deg) translate(5px, -2px);
+    background-color: #181414;
+    z-index: 1;
+  }
+}

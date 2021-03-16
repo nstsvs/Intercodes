@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intercodes</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/svg">
+    <link href="./css/style.min.css" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header" id="header">
+    <div class="header__logo logo">
+      <a class="logo__link" href="./index.html">
+        <img class="logo__image" src="./img/logo-orange.svg" width="160" height="33" alt="Логотип студии">
+      </a>
+    </div>
+    <nav class="header__menu menu">
+      <button class="menu__button" id="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+        <span class="menu__toggle"></span>
+      </button>
+      <ul class="menu__list" id="menu__list">
+        <li class="menu__item menu__item--current">
+          <a class="menu__link" href="./projects.html">Проекты</a>
+        </li>
+        <li class="menu__item services" aria-expanded="false" aria-controls="sub-menu">
+          <a class="menu__link services-link" href="./development.html">Услуги</a>
+          <ul class="sub-menu" id="sub-menu">
+           <li class="sub-menu__item"><a href="./development.html">Разработка</a></li>
+           <li class="sub-menu__item"><a href="#">Дизайн</a></li>
+           <li class="sub-menu__item"><a href="#">Консалтинг</a></li>
+           <li class="sub-menu__item"><a href="#">Поддержка</a></li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link-project" href="./start-project.html">Начать проект</a>
+        </li>
+        <li class="menu__contacts mail mail-mobile"><a href="mailto:hello@intercodes.ru">hello@intercodes.ru</a></li>
+        <li class="menu__contacts telephone telephone-mobile"><a href="tel:+74953238822">+7 495 323 88 22</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="wrapper__projects-title animate-area">
+      <h1 class="projects__title">Наши проекты удобны для пользователей и эффективны для бизнеса</h1>
+    </div>
+    <section class="projects">
+      <div class="wrapper__projects animate-area">
+        <h2 class="visually-hidden">Список проектов</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <a class="projects__img" href="./fantasy-interactive.html">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/fantasy-preview-desktop.png, img/fantasy-preview-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/fantasy-preview-tablet.png, img/fantasy-preview-tablet@2x.png 2x">
+                <img class="project__image fantasy-img" src="img/fantasy-preview-mobile.png" srcset="img/fantasy-preview-mobile@2x.png 2x" alt="Главная сайта Fantasy Interactive">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="fantasy-interactive.html">Fantasy Interactive</a>
+              <p class="projects__description">Корпоративный сайт для легендарного digital агентства из Нью–Йорка</p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/bike-desktop.png, img/bike-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/bike-tablet.png, img/bike-tablet@2x.png 2x">
+                <img class="project__image" src="img/bike-mobile.png" srcset="img/bike-mobile@2x.png 2x" alt="Человек с велосипедом">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">Electric Bikes 24</a>
+              <p class="projects__description">UI/UX дизайн для аггрегатора электробайков в США и Европе</p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/fintech-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/fintech-tablet.png">
+                <img class="project__image" src="img/fintech-mobile.png" srcset="img/fintech-mobile@2x.png 2x" alt="Набор скобок">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">Ассоциация Финтех</a>
+              <p class="projects__description">Корпоративный сайт для Ассоциации развития финансовых технологий</p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/VLB-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/VLB-tablet.png">
+                <img class="project__image" src="img/VLB-mobile.png" srcset="img/VLB-mobile@2x.png 2x" alt="Два телефона">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">VLB</a>
+              <p class="projects__description">Промо-сайт для презентации технологического стартапа</p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/flocktory-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/flocktory-tablet.png">
+                <img class="project__image" src="img/flocktory-mobile.png" srcset="img/flocktory-mobile@2x.png 2x" alt="Зелёный ёлочный шарик с надписью Flocktory">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">Flocktory</a>
+              <p class="projects__description">Промо-сайт для клиентов маркетинговой платформы</p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/QIWI-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/QIWI-tablet.png">
+                <img class="project__image" src="img/QIWI-mobile.png" srcset="img/QIWI-mobile@2x.png 2x" alt="Имитация серой сложенной бумаги">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">QIWI Blockchain Technologies</a>
+              <p class="projects__description">Брендинг и корпоративный сайт для блокчейн-интегратора</p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/IQ-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/IQ-tablet.png">
+                <img class="project__image" src="img/IQ-mobile.png" srcset="img/IQ-mobile@2x.png 2x" alt="Логотип и название компании">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">IQ квартал</a>
+              <p class="projects__description">Брендинг и сайт для жилого комплекса </p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/macbook-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/macbook-tablet.png">
+                <img class="macbook-img project__image" src="img/Macbook-mobile.png" srcset="img/macbook-mobile@2x.png 2x" alt="Ноутбук с открытым сайтом компании">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">Квиз “Мстители”</a>
+              <p class="projects__description">Интерактивный промо-тест</p>
+            </div>
+          </li>
+          <li class="projects__item">
+            <a class="projects__img" href="#">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/geoplus-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/geoplus-tablet.png">
+                <img class="geoplus-img project__image" src="img/geoplus-mobile.png" srcset="img/geoplus-mobile@2x.png 2x" alt="Планшетная версия сайта компании">
+              </picture>
+            </a>
+            <div class="wrapper__description animate-area">
+              <a class="link" href="#">Геоплюс</a>
+              <p class="projects__description">Лендинг для продажи услуг геодезической компании</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="wrap__projects">
+      <section class="feedback projects__feedback block">
+        <div class="feedback__wrapper block">
+         <h4 class="feedback__title projects__feedback-title block">Есть вопрос? Напишите нам.</h4>
+          <form class="feedback__form block" action="#" method="POST">
+           <fieldset class="feedback__fieldset block">
+              <legend class="visually-hidden block">Данные</legend>
+              <ul class="feedback__list block">
+                <li class="feedback__item projects__feedback-item block">
+                  <input class="block" type="text" pattern="[A-Za-zА-Яа-яЁё]{2,20}" name="name" placeholder="Имя" required>
+                </li>
+                <li class="feedback__item projects__feedback-item block">
+                  <input class="block" type="email" name="email" placeholder="Email" required>
+                </li>
+                <li class="feedback__item projects__feedback-item block">
+                  <input class="block" type="tel" name="tel" placeholder="Телефон" required>
+                </li>
+                <li class="feedback__item projects__feedback-item block">
+                  <textarea class="block" placeholder="Сообщение" name="message" required></textarea>
+                </li>
+              </ul>
+           </fieldset>
+           <fieldset class="privacy__fieldset block">
+              <label class="privacy__label projects__privacy-label block">
+                <input class="privacy__input projects__privacy-input block" type="checkbox" name="privacy" required>
+                <span class="privacy__checkbox projects__privacy-checkbox block"></span>
+                Согласен с политикой конфиденциальности
+              </label>
+           </fieldset>
+           <div class="feedback__submit submit block">
+            <button class="submit__button projects__submit-button" type="submit">
+              <span>Отправить</span>
+            </button>
+           </div>
+         </form>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="wrap__footer">
+    <div class="footer footer-desktop block">
+      <div class="footer__wrapper block">
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/logo-black.svg">
+          <img class="footer__logo block" src="img/logo-orange.svg" width="169" height="35" alt="Логотип студии">
+          </picture>
+        <ul class="contacts__list  block">
+          <li class="contacts__item red block"><a href="mailto:hello@intercodes.ru">hello@intercodes.ru</a></li>
+          <li class="contacts__item red block"><a href="tel:+74953238822">+7 495 323 88 22</a></li>
+        </ul>
+      </div>
+      <div class="footer__project red block">
+        <a class="block" href="./start-project.html">Начать проект</a>
+        <p class="footer__year red block">2021</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/fade-up.js"></script>
+  <script src="./js/menu-button.js"></script>
+  <script src="./js/sub-menu.js"></script>
+</body>
+</html>

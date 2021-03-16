@@ -1,0 +1,272 @@
+.feedback {
+  padding: 0 10px;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.feedback__title {
+  margin: 0;
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 26px;
+  letter-spacing: -0.05em;
+  color: #EC5540;
+}
+
+.feedback__fieldset {
+  margin: 40px 0 0 0;
+  padding: 0;
+  border: none;
+}
+
+.feedback__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback__item:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.feedback__item input {
+  font-family: "TT Commons", sans-serif;
+  padding: 0;
+  font-weight: 500;
+  width: 100%;
+  height: 29px;
+  position: relative;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: -0.06em;
+  color: #EC5540;
+  background-color: #181414;
+  border-bottom: 1px solid #ec5540;
+}
+
+::placeholder {
+  font-family: "TT Commons", sans-serif;
+  color: #EC5540;
+}
+
+:focus::placeholder {
+  opacity: 0;
+}
+
+.feedback__item {
+  height: 29px;
+}
+
+.feedback__item textarea {
+  font-family: "TT Commons", sans-serif;
+  width: 100%;
+  height: 25px;
+  resize: none;
+  padding: 0;
+  font-weight: 500;
+  position: relative;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: -.06em;
+  background-color: #181414;
+  color: #EC5540;
+  border-bottom: 1px solid #ec5540;
+  overflow: hidden;
+}
+
+.privacy__fieldset {
+  margin: 40px 0 0 0;
+  padding: 0;
+  padding-bottom: 40px;
+  border: none;
+}
+
+.privacy__label,
+.privacy__label a {
+  position: relative;
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.06em;
+  color: #EC5540;
+  text-decoration: none;
+}
+
+.privacy__input {
+  position: absolute;
+  display: none;
+}
+
+.privacy__label a {
+  padding: 0;
+}
+
+.privacy__checkbox {
+  position: absolute;
+  top: -1px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  box-shadow: 0 0 0 2px #EC5540;
+  background-color: #181414;
+}
+
+.privacy__label a:hover {
+  color: #fff;
+}
+
+.privacy__input:checked + .privacy__checkbox {
+  background-image: url(../img/Ellipse.svg);
+}
+
+.privacy__input:focus + .privacy__checkbox {
+  box-shadow: 0 0 0 2px #EC5540;
+}
+
+.submit__button {
+  height: 40px;
+  font-size: 18px;
+  line-height: 16px;
+  border: 0;
+  outline: 0;
+  letter-spacing: -0.07em;
+  background-color: #EC5540;
+}
+
+.submit__button:hover {
+  background-color: #fff;
+}
+
+.feedback__submit {
+  display: grid;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .feedback {
+    padding: 0 20px;
+  }
+
+  .feedback__wrapper {
+    display: flex;
+  }
+
+  .feedback__title {
+    margin-right: 80px;
+    font-size: 58px;
+    max-width: 270px;
+    line-height: 85%;
+  }
+
+  .feedback__form {
+    width: 500px;
+  }
+
+  .feedback__application {
+    width: 520px;
+    margin: auto;
+  }
+
+  .feedback__item textarea {
+    font-size: 24px;
+    padding-top: 3px;
+  }
+
+  .feedback__item input {
+    font-size: 24px;
+  }
+
+  .privacy__label,
+  .privacy__label a {
+    font-size: 24px;
+    padding-left: 35px;
+  }
+
+  .privacy__label a {
+    padding: 0;
+  }
+
+  .privacy__checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .privacy__input:checked + .privacy__checkbox {
+    background-image: url(../img/Ellipse-big.svg);
+  }
+
+  .start-project__privacy::before {
+    position: absolute;
+    content: '';
+    top: 94%;
+    right: 0;
+    left: 667%;
+    width: 288px;
+    height: 1px;
+    background-color: #EC5540;
+  }
+}
+
+@media (min-width: 1320px) {
+	.privacy__label,
+	.privacy__label a {
+    cursor: pointer;
+  }
+
+  .feedback__submit {
+    padding-bottom: 0;
+  }
+
+  .feedback__form {
+    margin-bottom: 0;
+  }
+
+  .feedback {
+    padding: 0 80px;
+    padding-bottom: 200px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .feedback__application {
+    margin: 0;
+    margin-left: auto;
+    right: 25%;
+    position: relative;
+  }
+
+  .feedback__title {
+    margin-right: 165px;
+    padding-top: 100px;
+  }
+
+  .feedback__item textarea {
+    padding-top: 3px;
+  }
+
+  .submit__button {
+    width: 200px;
+    cursor: pointer;
+  }
+
+  .feedback__fieldset {
+    margin-top: 100px;
+  }
+
+  .feedback__fieldset--start-project {
+    margin-top: 40px;
+  }
+}

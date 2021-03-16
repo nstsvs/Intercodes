@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intercodes</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/svg">
+    <link href="./css/style.min.css" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header" id="header">
+    <div class="header__logo logo">
+      <a class="logo__link" href="index.html">
+        <img class="logo__image" src="./img/logo-orange.svg" width="160" height="33" alt="Логотип студии">
+      </a>
+    </div>
+    <nav class="header__menu menu">
+      <button class="menu__button" id="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+        <span class="menu__toggle"></span>
+      </button>
+      <ul class="menu__list" id="menu__list">
+        <li class="menu__item">
+          <a class="menu__link menu__item--current" href="projects.html">Проекты</a>
+        </li>
+        <li class="menu__item services" aria-expanded="false" aria-controls="sub-menu">
+          <a class="menu__link services-link" href="./development.html">Услуги</a>
+          <ul class="sub-menu" id="sub-menu">
+           <li class="sub-menu__item"><a href="./development.html">Разработка</a></li>
+           <li class="sub-menu__item"><a href="#">Дизайн</a></li>
+           <li class="sub-menu__item"><a href="#">Консалтинг</a></li>
+           <li class="sub-menu__item"><a href="#">Поддержка</a></li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link-project" href="start-project.html">Начать проект</a>
+        </li>
+        <li class="menu__contacts mail mail-mobile"><a href="mailto:hello@intercodes.ru">hello@intercodes.ru</a></li>
+        <li class="menu__contacts telephone telephone-mobile"><a href="tel:+74953238822">+7 495 323 88 22</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="wrapper__fantasy animate-area">
+      <h1 class="fantasy__title">Fantasy Interactive</h1>
+      <div class="fantasy__description-wrapper animate-area">
+        <h2 class="fantasy__description">Корпоративный сайт для легендарного digital агентства из Нью–Йорка</h2>
+      </div>
+      <div class="fantasy__img-wrapper animate-area">
+        <ul class="fantasy__list">
+          <li class="fantasy__item">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="img/fantasy-preview-desktop.png, img/fantasy-preview-desktop@2x.png 2x">
+              <source media="(min-width: 768px)" srcset="img/fantasy-preview-tablet.png, img/fantasy-preview-tablet@2x.png 2x">
+              <img class="fantasy__preview-img" src="img/fantasy-preview-tablet.png" srcset="img/fantasy-preview-tablet@2x.png 2x" alt="Превью проекта">
+            </picture>
+          </li>
+          <li>
+            <p class="fantasy__description">Обновленная дизайн-концепция сайта усиливает образ компании как надежного, современного и открытого партнера.</p>
+          </li>
+          <li class="fantasy__item">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="img/Main-desktop.png, img/Main-desktop@2x.png 2x">
+              <source media="(min-width: 768px)" srcset="img/Main-tablet.png, img/Main-tablet@2x.png 2x">
+              <img class="fantasy__main-img" src="img/Main-mobile.png" srcset="img/Main-mobile@2x.png 2x" alt="Первая страница проекта">
+            </picture>
+          </li>
+          <li>
+            <p class="fantasy__description">Красный цвет, отражающий характер и силу. Паттерн, уводящий ассоциации в исследования и покорение глубин. Строгие линии, которые ясно дают понять – перед вами лидер рынка.</p>
+          </li>
+        </ul>
+        <div>
+          <ul class="wrapper__flex-first">
+            <li class="fantasy__item">
+              <picture>
+								<source media="(min-width: 1024px)" srcset="img/unlock-desktop.png, img/unlock-desktop@2x.png 2x">
+								<source media="(min-width: 768px)" srcset="img/unlock-tablet.png, img/unlock-tablet@2x.png 2x">
+                <img class="unlock-img" src="img/unlock-mobile.png" srcset="img/unlock-mobile@2x.png 2x" alt="Изображение разделённая на две части текст и ноутбук">
+              </picture>
+            </li>
+            <li class="fantasy__item">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/ipad-desktop.png, img/ipad-desktop@2x.png 2x">
+								<source media="(min-width: 768px)" srcset="img/ipad-tablet.png, img/ipad-tablet@2x.png 2x">
+                <img class="ipad-img" src="img/ipad-mobile.png" srcset="img/ipad-mobile@2x.png 2x" alt="Сайт в планшетной версии">
+              </picture>
+            </li>
+            <li class="fantasy__item">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/industry-desktop.png, img/industry-desktop@2x.png 2x">
+								<source media="(min-width: 768px)" srcset="img/industry-tablet.png, img/industry-tablet@2x.png 2x">
+                <img class="industry-img" src="img/industry-mobile.png" srcset="img/industry-mobile@2x.png 2x" alt="Изображение панели автомобиля">
+              </picture>
+            </li>
+            <li class="fantasy__item">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/human-desktop.png, img/human-desktop@2x.png 2x">
+								<source media="(min-width: 768px)" srcset="img/human-tablet.png, img/human-tablet@2x.png 2x">
+                <img class="human-img" src="img/human-mobile.png" srcset="img/human-mobile@2x.png 2x" alt="Изображение с девушкой">
+              </picture>
+            </li>
+          </ul>
+        </div>
+        <ul class="wrapper__flex-second">
+          <li class="fantasy__item">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="img/double-desktop.png, img/double-desktop@2x.png 2x">
+							<source media="(min-width: 768px)" srcset="img/double-tablet.png, img/double-tablet@2x.png 2x">
+              <img class="double" src="img/double-mobile.png" srcset="img/double-mobile@2x.png 2x" alt="Полное представление сайта">
+            </picture>
+          </li>
+        </ul>
+        <div>
+          <ul class="wrapper__flex">
+            <li class="fantasy__item work-item">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/work-desktop.png, img/work-desktop@2x.png 2x">
+								<source media="(min-width: 768px)" srcset="img/work-tablet.png, img/work-tablet@2x.png 2x">
+                <img class="work-img" src="img/work-mobile.png" srcset="img/work-mobile@2x.png 2x" alt="Изображение телефона">
+              </picture>
+            </li>
+            <li class="fantasy__item">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="img/empowered-desktop.png, img/empowered-desktop@2x.png 2x">
+								<source media="(min-width: 768px)" srcset="img/empowered-tablet.png, img/empowered-tablet@2x.png 2x">
+                <img class="empowered-img" src="img/empowered-mobile.png" srcset="img/empowered-mobile@2x.png 2x" alt="Изображение телефона">
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="wrap__projects">
+      <section class="feedback projects__feedback block">
+        <div class="feedback__wrapper block">
+         <h4 class="feedback__title projects__feedback-title block">Есть вопрос? Напишите нам.</h4>
+          <form class="feedback__form block" action="#" method="POST">
+           <fieldset class="feedback__fieldset block">
+              <legend class="visually-hidden block">Данные</legend>
+              <ul class="feedback__list block">
+                <li class="feedback__item projects__feedback-item block">
+                  <input class="block" type="text" pattern="[A-Za-zА-Яа-яЁё]{2,20}" name="name" placeholder="Имя" required>
+                </li>
+                <li class="feedback__item projects__feedback-item block">
+                  <input class="block" type="email" name="email" placeholder="Email" required>
+                </li>
+                <li class="feedback__item projects__feedback-item block">
+                  <input class="block" type="tel" name="tel" placeholder="Телефон" required>
+                </li>
+                <li class="feedback__item projects__feedback-item block">
+                  <textarea class="block" placeholder="Сообщение" name="message" required></textarea>
+                </li>
+              </ul>
+           </fieldset>
+           <fieldset class="privacy__fieldset block">
+              <label class="privacy__label projects__privacy-label block">
+                <input class="privacy__input projects__privacy-input block" type="checkbox" name="privacy" required>
+                <span class="privacy__checkbox projects__privacy-checkbox block"></span>
+                Согласен с политикой конфиденциальности
+              </label>
+           </fieldset>
+           <div class="feedback__submit submit">
+            <button class="submit__button projects__submit-button" type="submit">
+              <span>Отправить</span>
+            </button>
+           </div>
+         </form>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="wrap__footer">
+    <div class="footer footer-desktop block">
+      <div class="footer__wrapper block">
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/logo-black.svg">
+          <img class="footer__logo block" src="img/logo-orange.svg" width="169" height="35" alt="Логотип студии">
+          </picture>
+        <ul class="contacts__list block">
+          <li class="contacts__item red block"><a href="mailto:hello@intercodes.ru">hello@intercodes.ru</a></li>
+          <li class="contacts__item red block"><a href="tel:+74953238822">+7 495 323 88 22</a></li>
+        </ul>
+      </div>
+      <div class="footer__project red block">
+        <a class="block" href="./start-project.html">Начать проект</a>
+        <p class="footer__year red block">2021</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/fade-up.js"></script>
+  <script src="./js/menu-button.js"></script>
+  <script src="./js/sub-menu.js"></script>
+</body>
+</html>

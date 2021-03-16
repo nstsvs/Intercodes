@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intercodes</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/svg">
+    <link href="./css/style.min.css" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header" id="header">
+    <div class="header__logo logo">
+      <a class="logo__link" href="./index.html">
+        <img class="logo__image" src="./img/logo-orange.svg" width="160" height="33" alt="Логотип студии">
+      </a>
+    </div>
+    <nav class="header__menu menu">
+      <button class="menu__button" id="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+        <span class="menu__toggle"></span>
+      </button>
+      <ul class="menu__list" id="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="projects.html">Проекты</a>
+        </li>
+        <li class="menu__item services" aria-expanded="false" aria-controls="sub-menu">
+          <a class="menu__link services-link" href="./development.html">Услуги</a>
+          <ul class="sub-menu" id="sub-menu">
+           <li class="sub-menu__item"><a href="./development.html">Разработка</a></li>
+           <li class="sub-menu__item"><a href="./services/design">Дизайн</a></li>
+           <li class="sub-menu__item"><a href="./services/consulting">Консалтинг</a></li>
+           <li class="sub-menu__item"><a href="./services/support">Поддержка</a></li>
+          </ul>
+        </li>
+        <li class="menu__item menu__item--current">
+          <a class="menu__link-project" href="start-project.html">Начать проект</a>
+        </li>
+        <li class="menu__contacts mail mail-mobile"><a href="mailto:hello@intercodes.ru">hello@intercodes.ru</a></li>
+        <li class="menu__contacts telephone telephone-mobile"><a href="tel:+74953238822">+7 495 323 88 22</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="application__wrapper animate-area">
+      <h1 class="application__title">Оставьте заявку на проект или просто позвоните нам</h1>
+      <div class="application__form block">
+        <form action="/" method="POST">
+          <p class="application__form-title">Необходимые услуги</p>
+          <fieldset class="application__fieldset">
+            <legend class="visually-hidden">Услуги</legend>
+            <ul class="application__list block">
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="checkbox" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  Разработка
+               </label>
+              </li>
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="checkbox" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  Дизайн
+               </label>
+              </li>
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="checkbox" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  Консалтинг
+                </label>
+              </li>
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="checkbox" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  Поддержка
+               </label>
+              </li>
+            </ul>
+          </fieldset>
+          <p class="application__form-title">Планируемый бюджет</p>
+          <fieldset class="application__fieldset block">
+            <legend class="visually-hidden">Бюджет</legend>
+            <ul class="application__list block">
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="radio" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  0 - 100 тыс. руб.
+               </label>
+              </li>
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="radio" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  100 - 300 тыс. руб.
+               </label>
+              </li>
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="radio" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  300 - 500 тыс. руб.
+                </label>
+              </li>
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="radio" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  более 500 тыс. руб.
+               </label>
+              </li>
+              <li class="application__item block">
+                <label class="application__label block">
+                  <input class="application__input block" type="radio" name="application" required>
+                  <span class="application__checkbox block"></span>
+                  не знаю
+               </label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <section class="feedback feedback__start-project">
+      <div class="feedback__wrapper">
+       <h2 class="visually-hidden">Заявка</h2>
+        <form class="feedback__form feedback__application" action="#" method="POST">
+         <fieldset class="feedback__fieldset feedback__fieldset--start-project">
+            <legend class="visually-hidden">Данные</legend>
+            <ul class="feedback__list">
+              <li class="feedback__item application-task">
+                <textarea placeholder="Краткое описание задачи" name="task" required></textarea>
+              </li>
+              <li class="feedback__item">
+                <input type="text" pattern="[A-Za-zА-Яа-яЁё]{2,20}" name="name" placeholder="Ваше имя" required>
+              </li>
+              <li class="feedback__item">
+                <input type="email" name="email" placeholder="Email для связи" required>
+              </li>
+              <li class="feedback__item">
+                <input type="tel" name="tel" placeholder="Телефон для связи" required>
+              </li>
+            </ul>
+         </fieldset>
+         <fieldset class="privacy__fieldset">
+            <label class="privacy__label">
+              <input class="privacy__input" type="checkbox" name="privacy" required>
+              <span class="privacy__checkbox start-project__privacy"></span>
+              Согласен с
+              <a class="privacy-href" href="#" target="_blank">политикой конфиденциальности</a>
+            </label>
+         </fieldset>
+         <div class="feedback__submit submit">
+          <button class="submit__button block" type="submit">
+            <span class="block">Отправить</span>
+          </button>
+         </div>
+       </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper footer__start-project">
+      <img class="footer__logo" src="img/logo-orange.svg" width="169" height="35" alt="Логотип студии">
+      <ul class="contacts__list">
+        <li class="contacts__item"><a href="mailto:hello@intercodes.ru">hello@intercodes.ru</a></li>
+        <li class="contacts__item"><a href="tel:+74953238822">+7 495 323 88 22</a></li>
+      </ul>
+    </div>
+    <div class="footer__project">
+      <a href="./start-project.html">Начать проект</a>
+      <p class="footer__year">2021</p>
+    </div>
+  </footer>
+  <script src="./js/fade-up.js"></script>
+  <script src="./js/menu-button.js"></script>
+  <script src="./js/sub-menu.js"></script>
+</body>
+</html>

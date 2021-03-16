@@ -1,0 +1,307 @@
+.fantasy__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fantasy-href {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .fantasy__item {
+    background-color: #F0F0F0;
+  }
+
+  .wrapper__fantasy {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper__flex-first,
+  .wrapper__flex-second {
+    padding: 0;
+  }
+
+  .fantasy__title {
+    width: 296px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 85%;
+    letter-spacing: -0.05em;
+    color: #EC5540;
+  }
+
+  .fantasy__description {
+    max-width: 300px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 90%;
+    letter-spacing: -0.06em;
+    color: #EC5540;
+  }
+
+  .fantasy__item {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .fantasy__preview-img {
+    padding: 23px;
+    width: 100%;
+  }
+
+  .fantasy__main-img {
+    padding: 23px;
+  }
+
+  .fantasy__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper__flex {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .unlock-img {
+    padding: 0 10px;
+    padding-bottom: 18px;
+    padding-top: 25px;
+  }
+
+  .ipad-img {
+    padding: 18px 87px;
+  }
+
+  .industry-img,
+  .human-img {
+    padding: 15px;
+    padding-bottom: 10px;
+  }
+
+  .work-img,
+  .empowered-img {
+    padding: 63px 77px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper__fantasy {
+    padding: 0 20px;
+  }
+
+	.wrapper__flex,
+  .wrapper__flex-first,
+  .wrapper__flex-second {
+    padding: 0;
+  }
+
+  .fantasy__title {
+    width: 413px;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 85%;
+    letter-spacing: -0.05em;
+    color: #EC5540;
+  }
+
+  .fantasy__description {
+    max-width: 634px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 120px;
+    font-size: 42px;
+    line-height: 90%;
+    letter-spacing: -0.06em;
+    color: #EC5540;
+  }
+
+  .fantasy__item {
+    margin-bottom: 80px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    display: inline;
+    text-align: center;
+  }
+
+  .fantasy__preview-img {
+    padding: 50px;
+    background-color: #F0F0F0;
+  }
+
+  .fantasy__main-img {
+    padding: 123px;
+    background-color: #F0F0F0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .fantasy__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: inherit;
+  }
+
+  .wrapper__flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .work-item {
+  //   margin-right: 40px;
+  // }
+
+  .wrapper__flex-first {
+    align-items: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    // width: 89%;
+    // margin: auto;
+  }
+
+  .unlock-img {
+    padding: 20px;
+    background-color: #F0F0F0;
+  }
+
+  .ipad-img {
+    padding: 13px 75px;
+    background-color: #F0F0F0;
+  }
+
+  .ipad-img,
+  .unlock-img {
+    margin-bottom: -40px;
+  }
+
+  .unlock-img {
+    padding: 49px 30px;
+  }
+
+  .industry-img,
+  .human-img {
+    padding: 60px 40px;
+    background-color: #F0F0F0;
+  }
+
+  .human-img {
+    margin: 0;
+  }
+
+  .work-img,
+  .empowered-img {
+    padding: 20px;
+    padding: 53px 87px;
+    background-color: #F0F0F0;
+  }
+
+  .double {
+    background-color: #f0f0f0;
+  }
+}
+
+@media (min-width: 1320px) {
+  .wrapper__fantasy {
+    padding: 0 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .wrapper__fantasy {
+    justify-content: space-between;
+  }
+
+  .wrapper__flex-second {
+    margin-bottom: 80px;
+  }
+
+  .fantasy__description {
+    max-width: 800px;
+    margin-top: 40px;
+  }
+
+  .fantasy__title {
+    margin: 0;
+    margin-top: 160px;
+    margin-bottom: 50px;
+  }
+
+  .fantasy__item {
+    width: auto;
+  }
+
+	.fantasy__main-img {
+    padding: 100px;
+	}
+
+  .fantasy__preview-img {
+    padding: 40px;
+  }
+
+  .industry-img {
+    margin-right: 60px;
+  }
+
+  .ipad-img {
+    width: auto;
+    height: auto;
+    padding: 24px 145px;
+  }
+
+  .unlock-img {
+    width: 550px;
+    padding: 51px 30px;
+    margin-right: 60px;
+  }
+
+  .human-img,
+  .industry-img {
+    width: 550px;
+  }
+
+  .double {
+    padding: 0;
+    width: 1161px;
+  }
+
+  img {
+		width: auto;
+  }
+
+  .work-img,
+  .empowered-img {
+    width: 100%;
+    padding: 130px 120px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fantasy__preview-img {
+    padding: 100px;
+  }
+
+  .double {
+    width: 100%;
+  }
+
+  .fantasy__main-img {
+    padding: 160px;
+  }
+}
